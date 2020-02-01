@@ -42,6 +42,7 @@ function createTable(parent, cols, rows)
 						//td.removeChild(cell);
 						m=String(limon[[i],[j]].innerHTML);
 						trs[[i],[j]].innerHTML='i)';// если значение стоит фиксированное, то размерность не меняется, иначе скачет
+						trs[[i],[j]].innerHTML=i+'.'+j+')';// если значение стоит фиксированное, то размерность не меняется, иначе скачет
 						//cel=document.createTextNode(trs[[i],[j]]);
 						td.appendChild(cell);
 						//td.removeChild(cell);//
